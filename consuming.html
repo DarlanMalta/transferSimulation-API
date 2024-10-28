@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Consumindo uma API</title>
+  </head>
+  <body>
+    <h1>Banco No Banck's</h1>
+    <span id="total"> </span>
+    <br />
+    <div id="form">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" />
+      <br />
+      <label for="valor">Valor da Transação:</label>
+      <input type="text" id="valor" name="valor" />
+      <br />
+      <button id="btn">Enviar requisição</button>
+    </div>
+    <section id="content"></section>
+    <div id="manipulation">
+      <h3>Manipulação das transações</h3>
+      <br />
+      <label for="delet">ID da transação que deseja deletar: </label>
+      <input type="text" id="delet" name="delet" />
+      <button id="deletData">Deletar dados</button>
+      <br />
+      <br />
+      <br />
+      <label for="put">ID da transação que deseja atualizar: </label>
+      <input type="text" id="put" name="put" />
+      <label for="put">Novo nome: </label>
+      <input type="text" id="newName" name="put" />
+      <label for="put">Novo valor: </label>
+      <input type="text" id="newValue" name="put" />
+      <button id="alterData">Alterar dados</button>
+    </div>
+  </body>
+</html>
