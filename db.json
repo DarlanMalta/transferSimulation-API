@@ -4,6 +4,11 @@
       "id": "1",
       "valor": 0,
       "nome": "Darlan"
+    },
+    {
+      "nome": "Glauber",
+      "valor": "999",
+      "id": "01e9"
     }
   ]
 }
