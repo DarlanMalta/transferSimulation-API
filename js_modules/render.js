@@ -7,5 +7,6 @@ export const renderDb = (dataApi) => {
   const valueTransfer = document.createElement("h5");
   valueTransfer.textContent = "Valor da transferência-" + dataApi.valor;
   newDiv.append(newName, valueTransfer);
+  newDiv.classList.add(transactions);
   document.querySelector("#content").appendChild(newDiv);
 };

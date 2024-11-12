@@ -1,6 +1,6 @@
-import { methodPut } from "./PutGetPost.js";
-import { methodPost } from "./PutGetPost.js";
-import { methodDelet } from "./PutGetPost.js";
+import { methodPut } from "./js_modules/PutGetPost.js";
+import { methodPost } from "./js_modules/PutGetPost.js";
+import { methodDelet } from "./js_modules/PutGetPost.js";
 //FUNÇÃO DO MÉTODO PUT QUE ATUALIZA A API/BD
 document.querySelector("#alterData").addEventListener("click", methodPut);
 
